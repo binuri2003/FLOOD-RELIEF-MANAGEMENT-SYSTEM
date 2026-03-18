@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f4f8fc;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #1E88E5;
+    font-weight: 700;
+}
+
+.card {
+    border: 1px solid #dce7f5;
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #1E88E5 !important;
+    color: white !important;
+    font-size: 1.05rem;
+    font-weight: 500;
+    border-radius: 10px 10px 0 0;
+}
+
+.form-label {
+    color: #030303;
+    font-weight: 500;
+}
+
+.form-control,
+.form-select,
+textarea {
+    color: #000;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+    border-color: #1E88E5;
+    box-shadow: 0 0 0 0.2rem rgba(30, 136, 229, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: #1E88E5;
+    border-color: #1E88E5;
+}
+
+.form-check-label {
+    color: #000;
+}
+
+#submitBtn {
+    background-color: #1E88E5;
+    color: white;
+    padding: 10px 36px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+}
+
+#submitBtn:hover {
+    background-color: #1565C0;
+}
+
+footer.footer {
+    background-color: #1E88E5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
